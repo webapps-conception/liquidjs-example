@@ -1,0 +1,20 @@
+{
+  "name": "liquidjs-example",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "demo": "npx liquidjs --template @./views/demo.js.liquid",
+    "express" : "node express-demo.cjs",
+    "hello": "node hello.cjs",
+    "inheritance": "node inheritance.cjs",
+    "partials": "node partials.cjs",
+    "users": "node users.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "liquidjs": "^10.10.0"
+  }
+}
